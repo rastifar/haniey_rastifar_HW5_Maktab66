@@ -191,3 +191,232 @@
   .rec:hover {
     border-bottom: 10px solid #45a132;
   }
+
+  @media screen and (max-width:480px) {
+    .topGreen {   
+      height: 1vh;  
+    }
+    
+    .nav {   
+      height: 24vh;    
+      margin-top: 0vh;
+      flex-direction: column ;
+      flex-wrap: nowrap;  
+      background-image: url("./icons/footerLogo.png");
+      background-position:left top;
+      background-repeat: no-repeat;
+      background-size: 20%;
+  
+    }
+    .item {     
+      margin: 0px ;
+      font-size: 13px ;
+      color:#8a8a8a ;
+      text-align: right ;    
+    }
+    .logo{
+      display: none;   
+    }   
+    .item-2 {    
+      background-color: #ffffff;
+      border-radius: 0px;
+      /* width: 15vw; */
+      width: 100vw;
+      height: auto;
+      color:#93c588;
+    
+    }  
+    .item-5 {  
+      background-color: #ffffff;
+      margin-right:0;
+      margin-left:auto;
+      border-radius:  0px;
+      color: #45a132 !important;   
+      width: 100vw;
+      
+    } 
+    .first-top {
+      width: 100%;
+      height: 5vh;    
+      text-align: center;
+      font-size: 21px;
+      padding-top:2vh;
+      color: #595f59;
+    }
+    .second-top {
+      width: 100%;
+      height: 55vh;
+      margin-top: 3vh;    
+    }
+    .contain{
+        display: block;
+    }
+    .image {
+      width:33vw;
+      height: 16vh;
+      border-radius: 50%;
+      background-color: #ffca1d;
+      display: block;
+      margin: 2vh auto;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-position: center;
+    }
+    .image1 {  
+      margin-right: auto;
+    }    
+    .pFir{
+      margin-right: auto;
+    }
+    .main-bottom {
+      background-color: #f2f2f2;
+      margin-top: 13vh;
+    }
+    .first-bottom {
+      width: 100%;
+      height: 13vh;
+       color: #56a95f;
+      text-align: center;
+      font-size: 21px;
+      padding-top: 5vh;
+    }
+    .second-bottom {
+      width: 100%;
+      height: auto;   
+    }
+    
+    .rec {
+      width: 80%;
+      height: 20vh;   
+      margin: 2vh auto;
+      display: block;
+    }
+    .imge{
+        width: 14vw; ;
+        height:9vh;
+       display: block;  
+    }
+    .imge1{
+        margin-right: auto;
+    }
+    .pSecond{
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 14px;
+    /* font-size: 1rem; */
+    }  
+  }
+  
+  @media screen and (max-width:768px) {
+    .topGreen {   
+      height: 1vh;  
+    }
+    
+    .nav {   
+      height: 45%;    
+      margin-top: 0vh;
+      flex-direction: column ;
+      flex-wrap: nowrap;  
+      background-image: url("./icons/footerLogo.png");
+      background-position:left top;
+      background-repeat: no-repeat;
+      background-size: 11vw auto; 
+    }
+    .item {     
+      margin: 0px ;
+      font-size: 13px ;
+      color:#8a8a8a ;
+      text-align: right ;    
+    }
+    .logo{
+      display: none;   
+    }   
+    .item-2 {    
+      background-color: #ffffff;
+      border-radius: 0px;
+      /* width: 15vw; */
+      width: 100vw;
+      height: auto;
+      color:#93c588;  
+    }  
+    .item-5 {  
+      background-color: #ffffff;
+      margin-right:0;
+      /* margin-left:auto; */
+      /* border-radius:  0px; */
+      color: #45a132 !important;   
+      width: 100vw;
+      
+    }
+    .main-top{
+      margin-top: 2%;
+    }     
+    .first-top {
+      width: 100%;
+      height: 5vh;    
+      text-align: center;
+      font-size: 21px;
+      padding-top:2vh;
+      color: #595f59;
+      
+    }
+    .second-top {
+      width: 100%;
+      height: 30%;
+      margin-top: 5vh;    
+    }
+    .contain{
+        display: inline-block;
+    }
+    .image {
+      width:17vw;
+      height: 21vh;
+      border-radius: 50%;
+      background-color: #ffca1d;
+      display: block;
+      margin: 3vh 5vw;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-position: center;
+    }
+    .image1 {  
+      margin-right: 4vw;
+    }    
+    .pFir{
+      margin-right: auto;
+    }
+    .main-bottom {
+      background-color: #f2f2f2;
+      margin-top: 13vh;
+    }
+    .first-bottom {
+      width: 100%;
+      height: 13vh;
+       color: #56a95f;
+      text-align: center;
+      font-size: 21px;
+      padding-top: 5vh;
+    }
+    .second-bottom {
+      width: 100%;
+      height: auto;   
+    }
+    
+    .rec {
+      width: 20%;
+      height: 20vh;   
+      margin: 2vh 1vh;
+      display: inline-block;
+    }
+    .imge{
+        width: 7vw; ;
+        height:6vh;
+       display: block;  
+    }
+    .imge1{
+        margin-right: 5vw;
+    }
+    .pSecond{  
+    font-size: 11px;
+    }  
+  }
